@@ -1,0 +1,50 @@
+.qrcode{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.qrcode__logo-container{
+    width: calc((100%/10)*8);
+    
+}
+
+.qrcode__logo{
+    
+}
+.qrcode__main{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.qrcode__container{
+    border: 25px solid white;
+    border-radius: 25px;
+    position: relative;
+}
+
+
+
+.qrcode__back-button{
+    max-height: 62px;
+    max-width: 220px;
+    height: auto;
+    width:auto;
+    border-radius: 15px;
+    background-color: #3762e4;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;   
+    font-weight: 300;
+    margin-left: 10px;
+    padding: 20px;
+    margin-top: 45px;
+    
+}

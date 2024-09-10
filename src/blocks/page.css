@@ -1,0 +1,20 @@
+html{
+    background-color: #111729;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.page{
+    font-family: "Outfit";
+    font-weight: 400;
+    font-style: normal;    
+    
+    width: 100vw;
+    height: 100vh;
+}
+.page__container{
+    width: 100vw;
+    height: 100vh;
+   
+}
+
